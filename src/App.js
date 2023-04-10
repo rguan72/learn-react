@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import Profile from 'lessons/Props';
+import Card from 'lessons/Children'
 import './App.css';
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <Card>
+          <Profile person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }} size={100} />
+          <Profile person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }} size={100} />
+        </Card>
       </header>
     </div>
   );
